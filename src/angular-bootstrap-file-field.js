@@ -20,6 +20,12 @@ angular.module('bootstrap.fileField',[])
 
         var fileField = element.find('input');
 
+        // pass through the name attribute to the input element
+        if(attrs.name){
+            fileField.attr('name', attrs.name);
+        }
+
+
         //If an ACCEPT attribute was provided, add it to the input.
         if (attrs.accept) {
           fileField.attr('accept', attrs.accept);
