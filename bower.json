@@ -1,7 +1,7 @@
 {
     "name": "angular-bootstrap-file-field",
     "main": [
-        "angular-bootstrap-file-fieldjs"
+        "angular-bootstrap-file-field.js"
     ],
     "ignore": [
         "source",
